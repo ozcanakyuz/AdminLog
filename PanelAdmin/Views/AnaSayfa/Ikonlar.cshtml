@@ -1,0 +1,12 @@
+﻿@using PanelAdmin.Models
+@model List<Ikonlar>
+
+
+<div class="social">
+
+    @foreach (var x in Model)
+    {
+        <a href="@x.Link"><i class="@x.Ikon"></i></a>
+    }
+
+</div>

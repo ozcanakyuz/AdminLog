@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform:translate(-50%, -50%) ;
+}
+
+.card {
+    background-color: rgba(131, 131, 131, 0.329);
+    border: none;
+    width: 35%;
+    padding: 3rem;
+}
+
+.avatar i{
+    color: rgb(81, 62, 255);
+    font-size: 8rem;
+}
+
+.card .btn {
+    width: 100%;
+}
+
+.form-controls {
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid bisque;
+}
